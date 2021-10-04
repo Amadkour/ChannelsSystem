@@ -63,7 +63,7 @@ class MainActivity : AppCompatActivity() {
             //-----------------(hide the default action bar)-------------//
             val actionBar: ActionBar? = supportActionBar
             actionBar?.hide()
-            //-----------------(initialize observed variable )---------------//
+            //-----------------(initialize observed variables )---------------//
             var channelsList by remember {
                 mutableStateOf(listOf<Channel>())
             }
